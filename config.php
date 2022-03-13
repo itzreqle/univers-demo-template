@@ -1,18 +1,18 @@
 <?php
-define('Host_Location', '127.0.0.1');
-define('Host_Database', 'test');
-define('Database_Username', 'root');
-define('Database_Password', 'password');
+// define('Host_Location', '127.0.0.1');
+// define('Host_Database', 'test');
+// define('Database_Username', 'root');
+// define('Database_Password', 'password');
 
 
-$con = new mysqli(Host_Location, Database_Username, Database_Password, Host_Database);
-$con->set_charset("utf8");
+// $con = new mysqli(Host_Location, Database_Username, Database_Password, Host_Database);
+// $con->set_charset("utf8");
 
 
-include_once('classes.php');
-$functions = new functions();
+// include_once('classes.php');
+// $functions = new functions();
 
 
-ini_set('display_errors', TRUE);
-ini_set('display_startup_errors', TRUE);
-error_reporting(~E_ALL);
+// ini_set('display_errors', TRUE);
+// ini_set('display_startup_errors', TRUE);
+// error_reporting(~E_ALL);

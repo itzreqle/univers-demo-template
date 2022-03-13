@@ -1,10 +1,11 @@
 # BEGIN
 
 RewriteEngine On
+RewriteBase /
 RewriteCond %{REQUEST_URI}  !(\.png|\.jpg|\.gif|\.jpeg|\.webp|\.zip|\.css|\.map|\.svg|\.js|\.json)$
 # Old 
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule (.*) routes.php [QSA,L]
 
 # END

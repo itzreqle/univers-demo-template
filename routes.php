@@ -10,14 +10,14 @@ require_once("{$_SERVER['DOCUMENT_ROOT']}/config.php");
 // Static GET
 // In the URL -> http://localhost
 // The output -> Index
-get('/', '/Pages/index.php');
-get('/index', '/Pages/index.php');
-get('/home', '/Pages/index.php');
-get('/works', '/Pages/works.php');
-get('/work/$work_id', '/Pages/work.php');
-get('/about', '/Pages/about.php');
-get('/contact', '/Pages/contact.php');
-get('/components', '/Pages/components.php');
+get('/', '/pages/index.php');
+get('/index', '/pages/index.php');
+get('/home', '/pages/index.php');
+get('/works', '/pages/works.php');
+get('/work/$work_id', '/pages/work.php');
+get('/about', '/pages/about.php');
+get('/contact', '/pages/contact.php');
+get('/components', '/pages/components.php');
 get('/panel', '/panel/index.php');
 
 get('/offline', '/offline.html');

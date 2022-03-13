@@ -52,4 +52,4 @@ get('/offline.html', '/offline.html');
 // For GET or POST
 // The 404.php which is inside the views folder will be called
 // The 404.php has access to $_GET and $_POST
-any('/404', '/Pages/404.php');
+any('/404', '/pages/404.php');
